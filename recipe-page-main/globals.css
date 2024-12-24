@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+
+h1,h2{
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+p,h3,li{
+    font-size: 16px;
+    font-family: "Outfit";
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    background-color: hsl(30, 18%, 87%)
+    ;
+}
+
+
+img{
+    border-radius: 10px;
+}
+section{
+    background-color: white;
+    padding:2.5rem;
+    width: 800px;
+    margin-top: 2rem;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center;
+}
+
+.row{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:0.5px solid hsl(0, 6%, 88%);
+}
+
+.table{
+    margin-left: 2rem;
+    width: 450px;
+}
+
+.header{
+    font-size: 50px;
+    color:hsl(24, 5%, 18%);
+    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+}
+.desc,.desc2{
+    color:hsl(0, 1%, 38%);
+    line-height: 20px;
+}
+
+/* White: hsl(0, 0%, 100%)
+
+- Stone 100: hsl(30, 54%, 90%)
+- Stone 150: hsl(30, 18%, 87%)
+- Stone 600: hsl(30, 10%, 34%)
+- Stone 900: hsl(24, 5%, 18%)
+
+- Brown 800: hsl(14, 45%, 36%)
+
+- Rose 800: hsl(332, 51%, 32%)
+- Rose 50: hsl(330, 100%, 98%)
+ */
+
+h3{
+    color:hsl(332, 51%, 32%);
+    font-size: 20px;
+    margin-left: 3rem;
+    margin-bottom: -1rem;
+    margin-top: 3rem;
+}
+
+.firstList{
+    margin-left: 3rem;
+
+
+}
+
+.firstList li{
+    color:hsl(0, 1%, 38%);
+    margin-top: 1rem;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+
+.firstList li span{
+    color: hsl(0, 1%, 32%);
+    font-weight: 800;
+}
+
+
+h2{
+  color: hsl(14, 45%, 36%);  
+  font-size: 30px;
+  margin-top: 4rem;
+}
+
+.secondList{
+    margin-left: -1rem;
+    margin-top: -1rem;
+}
+
+.secondList li{
+    color:hsl(0, 1%, 38%);
+    margin-top: 1rem;
+    gap: 1rem;
+    line-height: 30px;
+    padding-left: 1rem;
+
+}
+
+.secondList li::marker{
+    color: hsl(0, 1%, 32%);
+}
+
+.secondList li span{
+    color: hsl(0, 1%, 32%);
+    font-weight: 700;
+    
+}
+
+.desc2{
+    margin-top: 0rem;
+}
+
+.orange2{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.third li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
